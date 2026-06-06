@@ -61,11 +61,19 @@ Examples:
 
 # Preview Your CV
 
+You don’t need any tools or installation.
 After editing:
 
-1. Open `index.html` in your browser
-2. Review the content
-3. Make sure all links work correctly
+Just open the project folder:
+
+- Find `index.html`
+- Double-click it
+- It will open in your browser automatically
+
+### What to check
+- Make sure your name and info appear correctly
+- Check that links (LinkedIn / Portfolio) open properly
+- Scroll through the whole CV to ensure nothing is broken
 
 ---
 
