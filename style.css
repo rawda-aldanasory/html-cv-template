@@ -1,0 +1,121 @@
+/* =========================================
+   CSS Variables
+========================================= */
+
+:root {
+    --bg: #f7f7f7;
+    --text: #1a1a1a;
+    --muted: #555;
+}
+
+/* =========================================
+   Reset
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================================
+   Base Styles
+========================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: -20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+/* =========================================
+   Typography
+========================================= */
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--muted);
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 14px;
+    margin: 12px 0 6px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 18px;
+    margin-top: 6px;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/* =========================================
+   Contact Information Layout
+========================================= */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 6px;
+}
+
+.links-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =========================================
+   Reusable Layout Utilities
+========================================= */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* =========================================
+   Links
+========================================= */
+
+a {
+    color: var(--text);
+    text-decoration: underline;
+}
